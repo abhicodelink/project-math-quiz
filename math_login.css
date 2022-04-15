@@ -1,0 +1,27 @@
+body {
+    background-image: url("cool-background.png")
+}
+#head1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size:60px;
+}
+#head2 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:50px;
+}
+#user_input1 {
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+}
+#user_input2 {
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+.div_player1 , .div_player2 {
+   background:white;
+    padding: 40px;
+    float: none;
+    border-radius: 15px;
+}

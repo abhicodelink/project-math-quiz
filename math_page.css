@@ -1,0 +1,97 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+    background-size: cover;
+    background-position:bottom;
+
+}
+#head1 {
+    font-size:70px;
+    color: cornsilk;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:bold;
+}
+#question_turn {
+    font-size:24px;
+}
+#answer_turn {
+    font-size:24px;
+}
+#question_name {
+    font-size:22px;
+}
+#answer_name {
+    font-size:22px;
+}
+#answer_input {
+    padding: 20px;
+}
+
+    
+    #send {background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)}
+    #send{
+       margin: 10px;
+       padding: 10px 40px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     #send:hover {
+       background-position: right center;
+       color: #fff;
+       text-decoration: none;
+     }
+    
+#output {
+       background-color: white;
+       border-radius: 10px;
+       padding: 30px;
+       border-bottom: 10px solid  rgba(182,199,226,1);
+       border-right: 10px solid  rgba(182,199,226,1);
+       float: none;
+}
+
+#check{background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%)}
+#check{
+   margin: 10px;
+   padding: 10px 40px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ #check:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+ #user1_name {
+     color: red;
+     font-size:22px;
+ }
+ #user2_name{
+    color: red;
+    font-size:22px;
+}
+#user1_score {
+    color:darkgreen;
+    font-size: 20px;
+      font-weight: bold;
+}
+#user2_score {
+    color:darkgreen;
+    font-size: 20px;
+      font-weight: bold;
+}
+
