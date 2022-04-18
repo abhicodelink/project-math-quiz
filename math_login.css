@@ -13,15 +13,27 @@ body {
   border-radius: 10px;
   border-color: black;
   border-width: 2px;
+  transition: transform .1s;
 }
 #user_input2 {
     border-radius: 10px;
     border-color: black;
     border-width: 2px;
+    transition: transform .1s;
 }
+#user_input1:hover {
+    transform: scale(1.1);
+}
+#user_input2:hover {
+    transform: scale(1.1);
+}
+
 .div_player1 , .div_player2 {
    background:white;
     padding: 40px;
     float: none;
     border-radius: 15px;
+}
+#btn-login:hover{
+    transform: scale(1.1);
 }
